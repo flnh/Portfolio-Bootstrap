@@ -18,6 +18,12 @@ iframe {
   margin-bottom: 10px;
   border: 3px solid black;
   filter: blur(0.8px);
+  transition: filter 0.2s linear, transform 0.2s linear;
+}
+
+iframe:hover {
+  filter: none;
+  transform: scale(1.05);
 }
 
 body div.container > div {
