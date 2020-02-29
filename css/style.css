@@ -25,6 +25,7 @@ iframe {
   filter: blur(0.6px);
   transition: filter 0.2s linear, transform 0.2s linear;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
+  overflow: hidden;
 }
 
 iframe:hover {
